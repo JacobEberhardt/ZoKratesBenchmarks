@@ -1,0 +1,8 @@
+*.code
+*.abi
+*.key
+*.json
+*.bin
+*.sol
+witness
+.ipynb_checkpoints/
