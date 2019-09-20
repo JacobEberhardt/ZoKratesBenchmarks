@@ -1,8 +1,13 @@
 *.code
 *.abi
-*.key
+proving.key
+verification.key
+boot.key
+out
 *.json
 *.bin
 *.sol
 witness
 .ipynb_checkpoints/
+chain/geth.ipc
+# .ipynb_checkpoints
