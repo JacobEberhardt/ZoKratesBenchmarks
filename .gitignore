@@ -10,4 +10,5 @@ out
 witness
 .ipynb_checkpoints/
 chain/geth.ipc
+chain/geth
 .ipynb_checkpoints
