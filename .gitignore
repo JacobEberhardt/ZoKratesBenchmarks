@@ -4,6 +4,7 @@ proving.key
 verification.key
 boot.key
 out
+*.ztf
 *.json
 *.bin
 *.sol
