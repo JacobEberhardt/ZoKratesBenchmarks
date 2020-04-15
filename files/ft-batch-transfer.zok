@@ -1,0 +1,214 @@
+// 358542480479185808697248531080023868311996290396407866093358908738244729553 12 164524271165031127418791664235365147178 108893348124170058434197478986565244979 129782334266987004082821006285211836313 301708462669304768547827747568169378258 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69933058621000829976224556537512992402474438427908296387839543463 99957816335653606875874086095462293183828415372507082115945760402 2 167417603172276414613535804486505574308 67357669505192134469961454611259686801 1 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48978962617965357740298139417560368454 266600045759533597600113598152688284385 169879950964415188634106807869534303780 2967355503808551995129468761831493012 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 48978962617965357740298139417560368454 266600045759533597600113598152688284385 92517557508355947712459002116650851302 161996333966020187245449333922125370710 189769586447791848725009584325456490453 196568305661367917675878857080590852412 96013506259382099223523605410444099591 112264466014697344519515703616059154871 266155450996198240518415636885141507834 60123257379766734795492101312928776545 283924201158451244162648427574289812535 132426294325555081149564377651230751052 227879739291435620535420554971971843456 240571723659073072584152186878505406651 258228885885733968328364550097256067095 289026129156049718820348601066462992136 230299241253091969658363315791349130720 276934085807785825962810966668930647867 152441745245643827822891619827970496111 68472913893549268915731521928086919681 174281020817684339377299182647391694763 77283597035164644554398284227293166996 301939915892894437117364837828184607171 36193833683372674302728123083103371007 264383192484161267336895026375968744766 46975615677280497517531509967580679252 140553476776961363152693898653839260231 11352232541646975155520481581834685105 4220891480288548278696727563191425531 12741574795308334896012722013707246695 174317097944854311241176350002609315383 318095413823209342208381765681095104778 158545791656724466609110402288103513359 253680801848230894341394037149918214479 290195603988956958541707669392895217903 137671518872073864158538314097997142283 135865860224594530126421970858121732642 287092732971305670714927403846660985776 1049008830223418306295495345171569357 55180802771640683101916688659101271498 280184613637252609274047468403764680328 322558636072170623270273625634051078237 32610478032673314741502266759140671431 102900192614958429238741035839725699260 53980202246181850814913769785909797976 226021720503741960887723814443071722567 216397387922056787115169885595385849564 279714432670130288971972145742868552742 110131563454015143799883739849426797848 201158986733302290523582297771471024749 20698073763085994966053795270098209406 102936146396131784320565240854473151327 264630436682043111938208881455786835899 324183082067959788706891513126007862693 83793010268988526874785538035772641667 167553593020732497970711648074615219375 171607259596112382922447160962831897514 207441673208638395796326719671602343482 73007527319757001831059953775845860477 17619655757462132493152180092633999749 244427893228924174934336575277085594009 322701265505246330017135380687555469401 81591705625232393611847040608418389151 110041220076835293352832242597513151380 246436139911209453916224446498679727787 193769766939174346035380521733846483314 274250079505700625925694393690292806194 48274180700417849295050895966448734291 43411941443185990331575734509438754678 57918560904905421150696468008985143157 209692403951900573199469908227010127519 54966329426981882378042311953620225338 188398623543133323364146316199048727115 171640399807163569985897550763448924587 262652439591171277283497836600387687259 6420361760823100630094466408035847101 333663670698868872533739374482453120583 125342121098033816468210001799982004432 209939993949955785042792966317697241613 107304429736170158233003362954515937585 235269639554044079806306965877453917 294032313410650428637366525587448487056 15106295938544344327340349680460440394 186638135577638806893234629899367007814
+import "hashes/sha256/1536bit" as sha256of1536
+import "hashes/sha256/1024bit" as sha256of1024
+import "hashes/sha256/512bit" as sha256of512
+import "utils/pack/unpack128" as unpack128
+import "utils/pack/nonStrictUnpack256" as unpack256
+import "hashes/sha256/IVconstants" as IVconstants
+import "hashes/sha256/shaRoundNoBoolCheck" as sha256
+
+// A function that takes 22 field[256] arrays as inputs
+// and applies 11 rounds of sha256 compression.
+// It returns an array of 256 field elements.
+def sha256of6144(field[256] a0, field[256] a1, field[256] a2, field[256] a3, field[256] a4, field[256] a5, field[256] a6, field[256] a7, field[256] a8, field[256] a9, field[256] a10, field[256] a11, field[256] a12, field[256] a13, field[256] a14, field[256] a15, field[256] a16, field[256] a17, field[256] a18, field[256] a19, field[256] a20, field[256] a21, field[256] a22, field[256] a23) -> (field[256]):
+    IV =  IVconstants()
+    digest1 =  sha256(a0, a1, IV)
+    digest2 =  sha256(a2, a3, digest1)
+    digest3 =  sha256(a4, a5, digest2)
+    digest4 =  sha256(a6, a7, digest3)
+    digest5 =  sha256(a8, a9, digest4)
+    digest6 =  sha256(a10, a11, digest5)
+    digest7 =  sha256(a12, a13, digest6)
+    digest8 =  sha256(a14, a15, digest7)
+    digest9 =  sha256(a16, a17, digest8)
+    digest10 =  sha256(a18, a19, digest9)
+    digest11 =  sha256(a20, a21, digest10)
+    digest12 =  sha256(a22, a23, digest11)
+	return digest12
+
+def concatenate128x256x256(field[128] a, field[256] b, field[256] c)->(field[640]):
+	return [...a, ...b, ...c]
+
+def concatenate256x256(field[256] a, field[256] b)->(field[512]):
+	return [...a, ...b]
+
+def concatenate256x256x256x256x256(field[256] a, field[256] b, field[256] c, field[256] d, field[256] e)->(field[1280]):
+	return [...a, ...b, ...c, ...d, ...e]
+
+
+def orderedConcatenate216x216(field order, field[216] pathNode, field[216] siblingNode)->(field[432]):
+	field[216] left = if order == 0 then pathNode else siblingNode fi
+	field[216] right = if order == 0 then siblingNode else pathNode fi
+	return [...left, ...right]
+
+def shaPad432To512(field[432] a)->(field[512]):
+	return [...a, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1,0,1,1,0,0,0,0]
+
+// Provides the padding (only!) for a 256-bit message.
+def shaPad256To512()->(field[256]):
+	return [1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0]
+
+// Provides the padding (only!) for a 512-bit message.
+def shaPad512To1024()->(field[512]):
+	return [1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,  0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0]
+
+// Provides the padding (only!) for a 768-bit message.
+def shaPad768To1024()->(field[256]):
+	return [1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0]
+
+// Provides the padding (only!) for a 640-bit message.
+def shaPad640To1024()->(field[384]):
+	return [1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0]
+
+// Provides the padding (only!) for a 1280-bit message.
+def shaPad1280To1536()->(field[256]):
+	return [1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	1,	0,	0,	0,	0,	0,	0,	0,	0]
+
+def shaPad5632To6144()->(field[512]):
+  return [1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,  0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	1,	0,	1,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0]
+
+
+// unpacks a siblingPath's node to bits, ready for sha-ing:
+def unpackSiblingNode(field siblingNode)->(field[216]):
+	field[256] siblingNodeBits = unpack256(siblingNode)
+	return siblingNodeBits[40..256]
+
+// unpack a field[2] (assumed to be two 128-bit values) into 256 bits
+def unpack2xx128To256(field[2] input)->(field[256]):
+	field[128] left = unpack128(input[0])
+	field[128] right = unpack128(input[1])
+  field[256] output = [...left, ...right]
+  return output
+
+// note that this concatenate function expects fields rather than binary as inputs.
+def concatenateFields22xx2xx128(field[22][2] a)->(field[5632]):
+	field[256] b0 = unpack2xx128To256(a[0])
+	field[256] b1 = unpack2xx128To256(a[1])
+	field[256] b2 = unpack2xx128To256(a[2])
+	field[256] b3 = unpack2xx128To256(a[3])
+	field[256] b4 = unpack2xx128To256(a[4])
+	field[256] b5 = unpack2xx128To256(a[5])
+	field[256] b6 = unpack2xx128To256(a[6])
+	field[256] b7 = unpack2xx128To256(a[7])
+	field[256] b8 = unpack2xx128To256(a[8])
+	field[256] b9 = unpack2xx128To256(a[9])
+	field[256] b10 = unpack2xx128To256(a[10])
+	field[256] b11 = unpack2xx128To256(a[11])
+	field[256] b12 = unpack2xx128To256(a[12])
+	field[256] b13 = unpack2xx128To256(a[13])
+	field[256] b14 = unpack2xx128To256(a[14])
+	field[256] b15 = unpack2xx128To256(a[15])
+	field[256] b16 = unpack2xx128To256(a[16])
+	field[256] b17 = unpack2xx128To256(a[17])
+	field[256] b18 = unpack2xx128To256(a[18])
+	field[256] b19 = unpack2xx128To256(a[19])
+	field[256] b20 = unpack2xx128To256(a[20])
+	field[256] b21 = unpack2xx128To256(a[21])
+	return [...b0, ...b1, ...b2, ...b3, ...b4, ...b5, ...b6, ...b7, ...b8, ...b9, ...b10, ...b11, ...b12, ...b13, ...b14, ...b15, ...b16, ...b17, ...b18, ...b19, ...b20, ...b21]
+
+
+// Inputs for main are:
+// Alice's original coin is inputValue (private)
+// inputSalt - Alice's salt for her input coin (private)
+// secretKeyA -  Alice's secret key (private)
+// path- the Merkle path for Alice's input commitment (private)
+
+// nullifier - the nullifier for Alices commitment (public)
+
+// New outputCommitments that were created by Alice:
+// outputSalts[] - the outputSalts corresponding to outputCommitments[] (private)
+// outputValues[] - the amount contained in the corresponding outputCommitments[] (private)
+// publicKeys[] - Bobs' public keys (private)
+// outputCommitments[] - the commitments corresponding to outputValues[] (public)
+
+// root - the Merkle root (public)
+
+// publicInputHash = hash(root, nullifier, outputCommitments[])
+
+// Note - we now use 216 bits for the Merkle tree calculation. This is because 432 is the biggest input we can use for sha256 if we want 432/2 to end on a byte boundary for easier Solidity computation without needing to do full rounds and we need to concatenate the two child hashes. We consider 216 bits to be sufficiently secure. The nullifier, commitment and root
+// also use 216-bit security. This is because it becomes problematic to use bit length greater than Fp (not impossible but the proof code is much larger)
+
+// Each field element passed to main() can be at most 253bits, to make things convenient we ensure that only the lowest 216 bits are significant
+// (except the publicInputHash, which we maximize as 248-bits). That means we can 'reconstruct' a 256 bit value by padding them with zeros.  The advantage of doing that
+// is that our code can be written to work as if we're using a 'full' 256 bit sha hash - it's just that we define the top 40 bits to be zero.  That makes it easy to change to other bit
+// lengths in the future. It's painful to pass in a full 256 bits because we have to split it across two fields (Fp<256) and that makes the code much larger.
+
+def main(field publicInputHash, private field inputValue, private field[2] secretKeyA, private field[2] inputSalt, private field[32] path, private field order, private field[2] nullifier, private field[20] outputValues, private field[20][2] publicKeys, private field[20][2] outputSalts, private field[20][2] outputCommitments, private field[2] root)->():
+
+  field[256] publicInputHashBits = unpack256(publicInputHash)
+
+	field[256] padding256To512 = shaPad256To512()
+	field[512] padding512To1024 = shaPad512To1024()
+	field[256] padding768To1024 = shaPad768To1024()
+	field[384] padding640To1024 = shaPad640To1024()
+	field[256] padding1280To1536 = shaPad1280To1536()
+  field[512] padding5632To6144 = shaPad5632To6144()
+
+
+	// First we construct a proof that the nullifier of the input coin is correct:
+	// H(inputSalt|secretKey) = nullifier.
+
+	field[256] secretKeyABits = unpack2xx128To256(secretKeyA)
+	field[256] inputSaltBits = unpack2xx128To256(inputSalt)
+	field[512] preimage512 = concatenate256x256(inputSaltBits, secretKeyABits)
+	//check that we have correctly provided a public nullifier
+	nullifierBits = unpack2xx128To256(nullifier)
+  nullifierBitsCheck = sha256of1024(preimage512[0..256], preimage512[256..512], padding512To1024[0..256], padding512To1024[256..512])
+  nullifierBits == nullifierBitsCheck
+
+	// H(inputValue|publicKeyA|inputSalt) = Alices commitment is in the Merkle Tree
+
+	// Calculation of publicKeyA from H(secretKeyA)
+	field[256] publicKeyABits = sha256of512(secretKeyABits, padding256To512)
+
+	// And calculation of input commitment
+	field[128] inputValueBits = unpack128(inputValue)
+  inputValueBits[0] == 0 // overflow check
+	field[640] preimage640 = concatenate128x256x256(inputValueBits, publicKeyABits, inputSaltBits)
+	field[1024] preimage1024 = [...preimage640, ...padding640To1024]
+	field[256] hash = sha256of1024(preimage1024[0..256], preimage1024[256..512], preimage1024[512..768], preimage1024[768..1024]) // commitmentC
+
+	// concatenate siblings and hash all the way up to the root
+	field[128] orderBits = unpack128(order) // need to access an array of bits
+	for field i in 0..32 do
+		field j = 31-i
+    field k = 127-i
+		preimage512 = shaPad432To512(orderedConcatenate216x216(orderBits[k], hash[40..256], unpackSiblingNode(path[j])))
+		hash = sha256of512(preimage512[0..256], preimage512[256..512])
+	endfor
+	// check we have indeed recovered the root:
+  rootBits = unpack2xx128To256(root)
+  rootBits == hash
+
+	// Next up - prove that value is in commitment for all output commitments
+
+	// Work out commitment[i] = H(value[i]|publicKeys[i]|outputSalts[i])
+	// Also check the commitment is correct within the loop because storing the commitments as an array of arrays, so we can check at the end like we normally do, would be hard
+	// Also, while we're looping, let's add up how much we will spend and check for overflows:
+	field total = 0
+	for field i in 0..20 do
+    field[256] outputCommitment = unpack2xx128To256(outputCommitments[i])
+    field[128] outputValueBits = unpack128(outputValues[i])
+    field[256] publicKeyBits = unpack2xx128To256(publicKeys[i])
+    field[256] outputSaltBits = unpack2xx128To256(outputSalts[i])
+		preimage640 = concatenate128x256x256(outputValueBits, publicKeyBits, outputSaltBits)
+		preimage1024 = [...preimage640, ...padding640To1024]
+		field[256] commitmentBitsCheck = sha256of1024(preimage1024[0..256], preimage1024[256..512], preimage1024[512..768], preimage1024[768..1024])
+
+		outputCommitment == commitmentBitsCheck // valid commitment check
+
+		total = total + outputValues[i]
+		outputValueBits[0] == 0 // overflow check
+	endfor
+
+	// Sum check - we don't want anyone to create money.
+	total == inputValue
+
+	// Check that the 'public inputs' hash to the publicInputHash:
+
+	field[5632] preimage5632 = concatenateFields22xx2xx128([root, nullifier, ...outputCommitments])
+	field[256] publicInputHashBitsCheck = sha256of6144(preimage5632[0..256], preimage5632[256..512], preimage5632[512..768], preimage5632[768..1024], preimage5632[1024..1280], preimage5632[1280..1536], preimage5632[1536..1792], preimage5632[1792..2048], preimage5632[2048..2304], preimage5632[2304..2560], preimage5632[2560..2816], preimage5632[2816..3072], preimage5632[3072..3328], preimage5632[3328..3584], preimage5632[3584..3840], preimage5632[3840..4096], preimage5632[4096..4352], preimage5632[4352..4608], preimage5632[4608..4864], preimage5632[4864..5120], preimage5632[5120..5376], preimage5632[5376..5632], padding5632To6144[0..256], padding5632To6144[256..512])
+
+  publicInputHashBits[8..256] == publicInputHashBitsCheck[8..256]
+
+	return

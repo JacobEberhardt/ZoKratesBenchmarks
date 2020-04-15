@@ -1,4 +1,4 @@
-*.code
+temp.txt
 *.abi
 proving.key
 verification.key
