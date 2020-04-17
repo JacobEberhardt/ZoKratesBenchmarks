@@ -2,7 +2,6 @@
 import "hashes/mimcSponge/mimcFeistel" as MiMCFeistel
 
 def main(field[2] ins, field k) -> (field[1]):
-	//nInputs = 2, nOutputs = 3,
 	field nInputs = 2
 	field nOutputs = 1
 	field[2][2] S = [[0; 2]; 2] // Dim: (nInputs + nOutputs - 1, 2)
