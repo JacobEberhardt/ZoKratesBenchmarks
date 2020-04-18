@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# memusg -- Measure memory usage of processes
+# memusg -- Measure memory usage of processes in KiB
 # Usage: memusg COMMAND [ARGS]...
 #
 # Author: Jaeho Shin <netj@sparcs.org>
