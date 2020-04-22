@@ -2,7 +2,7 @@
   
 //The comments and explanations are provided for an example with n households!
 
-import "hashes/sha256/512bitPacked" as sha256packed
+import "./sha" as sha256
 
 // Aggregates the combined meterDelta of Energy producing HHS.
 // @param {field[n]} Energy producing HHs
@@ -135,7 +135,7 @@ def sumConsumers(field[1] hh) -> (field):
 // @param (private field[1]) consumersAfterNet after settlement
 // Index represents household and consumersAfterNet[index] := produce-consume < 0
 // @returns (field[2], field[2], field[2], field[2], field[2],...) sha256packed hashes of producersBeforeNetPacked and consumersBeforeNetPacked and sha256packed hash that depends on inputs
-def main(private field[1] producersBeforeNet, private field[1] consumersBeforeNet, private field[1] producersAfterNet, private field[1] consumersAfterNet) -> (field[2],field[2],field[2],field[2]):
+def main(private field[1] producersBeforeNet, private field[1] consumersBeforeNet, private field[1] producersAfterNet, private field[1] consumersAfterNet) -> (field[256],field[256],field[256],field[256]):
   totalDelta = calculateTotalDelta(producersBeforeNet, consumersBeforeNet)
   totalDeltaNet = calculateTotalDelta(producersAfterNet, consumersAfterNet)
   totalDelta == totalDeltaNet
@@ -150,8 +150,8 @@ def main(private field[1] producersBeforeNet, private field[1] consumersBeforeNe
   field[1] zeroNetPartyConsumers = consumersAfterNet
 
   0 == if sumProducers <= sumConsumers then validateZeroNetProducers(zeroNetPartyProducers, 1) else validateZeroNetConsumers(zeroNetPartyConsumers, 1) fi// Can make epsilon more accurate in the future
-  field[2] hh1ProducersBeforeNetHash = if producersBeforeNet[0] == 0 then [0, 0] else sha256packed([0, 0, 0, producersBeforeNet[0]]) fi
-  field[2] hh1ProducersAfterNetHash = if producersAfterNet[0] == 0 then [0, 0] else sha256packed([0, 0, 0, producersAfterNet[0]]) fi
-  field[2] hh1ConsumersBeforeNetHash = if consumersBeforeNet[0] == 0 then [0, 0] else sha256packed([0, 0, 0, consumersBeforeNet[0]]) fi
-  field[2] hh1ConsumersAfterNetHash = if consumersAfterNet[0] == 0 then [0, 0] else sha256packed([0, 0, 0, consumersAfterNet[0]]) fi
+  field[256] hh1ProducersBeforeNetHash = if producersBeforeNet[0] == 0 then [0; 256] else sha256([0, 0, 0, producersBeforeNet[0]]) fi
+  field[256] hh1ProducersAfterNetHash = if producersAfterNet[0] == 0 then [0; 256] else sha256([0, 0, 0, producersAfterNet[0]]) fi
+  field[256] hh1ConsumersBeforeNetHash = if consumersBeforeNet[0] == 0 then [0; 256] else sha256([0, 0, 0, consumersBeforeNet[0]]) fi
+  field[256] hh1ConsumersAfterNetHash = if consumersAfterNet[0] == 0 then [0; 256] else sha256([0, 0, 0, consumersAfterNet[0]]) fi
   return  hh1ProducersBeforeNetHash, hh1ConsumersBeforeNetHash, hh1ProducersAfterNetHash, hh1ConsumersAfterNetHash
