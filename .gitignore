@@ -6,8 +6,9 @@ boot.key
 out
 *.ztf
 *.json
+!genesis.json
 *.bin
-*.sol
+verifier.sol
 witness
 .ipynb_checkpoints/
 chain/geth.ipc
