@@ -46,7 +46,8 @@ Use Jupyter Notebook UI
     ~/Desktop/ZoKratesRemoteBenchmark/exports
 ```
 
-### Benchmarking Setup
+## Benchmarking Setup
+
 0. Make sure you're in the home directory
     ```shell
     cd ~/
@@ -118,3 +119,15 @@ Use Jupyter Notebook UI
         ```
         export PATH=$PATH:$HOME/bin
         ```
+
+7. Install stable version of the Go Ethereum client `geth`:
+    ```
+    sudo add-apt-repository -y ppa:ethereum/ethereum
+    sudo apt-get update
+    sudo apt-get install ethereum
+    ```
+
+8. Install stable version of the Solidity Compiler `solc`:
+    ```
+    npm i -g solc
+    ```
