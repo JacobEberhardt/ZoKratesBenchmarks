@@ -11,7 +11,7 @@
         "IstanbulBlock": 0
     },
     "difficulty": "0x4000",
-    "gasLimit": "850000000000",
+    "gasLimit": "100000000",
     "alloc": {
         "d51e15b8580d7d1dcbd8fcfd8b712e45807bc305": {
             "balance": "300000000000000000"
