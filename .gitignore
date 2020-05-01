@@ -15,6 +15,7 @@ witness
 chain/geth.ipc
 chain/geth
 .ipynb_checkpoints
+node_modules/
 
 
 # Created by https://www.gitignore.io/api/linux,macos,visualstudiocode
