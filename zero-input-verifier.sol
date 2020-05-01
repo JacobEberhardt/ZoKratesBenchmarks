@@ -400,7 +400,6 @@ library BN256G2 {
 // The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 pragma solidity ^0.6.1;
-pragma experimental ABIEncoderV2;
 library Pairing {
     struct G1Point {
         uint X;
@@ -560,13 +559,12 @@ contract Verifier {
         vk.b = Pairing.G2Point([uint256(0x2b4daf047abe2e7f0b311118c1b963b63695dc0d769cea78849604434de055bf), uint256(0x29c13ecb6f33dbc4b3b8a02e2e255511ce4c26a8a2f299efcc94caf2de4fce00)], [uint256(0x1da9020008df7f549751f8a251af3b2dc4a2ad3e0870de54acaedd9fc1b47e17), uint256(0x25ea0d7e2b29de431b86a943db30dbf4d98f68df9ca8a9628d14d1591e817d90)]);
         vk.gamma = Pairing.G2Point([uint256(0x011016e22ae045444f50fb80f246ec486c7e02af09132cd38c4fcf484983e4f2), uint256(0x00e83c788c2878d1d5eba3ed49b0d81e4c0487dedc3e4d1c2baab5833785b62f)], [uint256(0x05eb89e741ed5b5d611cebf92d1ed02cd6f3311089f0d400df7d9ced5a48fd41), uint256(0x132a90a3b0d369ccd66e2a5ba04a935e44d8ad5dca93a76bba592a578130a911)]);
         vk.delta = Pairing.G2Point([uint256(0x065f6a3323a2abffd621fc263f348eb914904b68d5897729ae34a6b9d33f0852), uint256(0x0c3b60f59d3bd50328a04c0ff6d979199685d0526f89f6ac29d6174ce24707a2)], [uint256(0x26e7ebce2b44efef6b6315938e33f0a8ecc82dbad635c9efa681ed85bbb59982), uint256(0x12e0f3721230a0f38f6c9913048d5230fd2615ef3ff7f6ee4b20dfe0bdea1a86)]);
-        vk.gamma_abc = new Pairing.G1Point[](1);
-        vk.gamma_abc[0] = Pairing.G1Point(uint256(0x264d3fcd499566da64d653696556046d143553d8729ef49c742821bf5b1628c3), uint256(0x0a4b16030b784f21a71c363e33e443ea0d18b8a04b3ad4ea88aa3831f89299ca));
+        vk.gamma_abc = new Pairing.G1Point[](2);
+        vk.gamma_abc[0] = Pairing.G1Point(uint256(0x2dae43da32cc1aa78c1f20726ac3cc6007b3a7bd98c43dd3001e638becf98d1d), uint256(0x121c2456be925318260066d9182923878d3024206b2682a0d34094af9b7e3ba8));
+        vk.gamma_abc[1] = Pairing.G1Point(uint256(0x244891edaa9eb1efdafbb2f1b52aaa00d07efc12211a449103c1b5d0ab036f0c), uint256(0x2d32971f998d9c0164cafaaf5d0e514397ad9c329aa1149e06f7e9183bf64d0b));
     }
     function verify(Proof memory proof) internal returns (uint) {
-        uint256 snark_scalar_field = 21888242871839275222246405745257275088548364400416034343698204186575808495617;
         VerifyingKey memory vk = verifyingKey();
-        require(1 == vk.gamma_abc.length);
         // Compute the linear combination vk_x
         Pairing.G1Point memory vk_x = Pairing.G1Point(0, 0);
         vk_x = Pairing.addition(vk_x, vk.gamma_abc[0]);
@@ -579,8 +577,15 @@ contract Verifier {
     }
     event Verified(string s);
     function verifyTx(
-            Proof memory proof
+            uint[2] memory a,
+            uint[2][2] memory b,
+            uint[2] memory c
         ) public returns (bool r) {
+        Proof memory proof;
+        proof.a = Pairing.G1Point(a[0], a[1]);
+        proof.b = Pairing.G2Point([b[0][0], b[0][1]], [b[1][0], b[1][1]]);
+        proof.c = Pairing.G1Point(c[0], c[1]);
+       
         if (verify(proof) == 0) {
             emit Verified("Transaction successfully verified.");
             return true;
