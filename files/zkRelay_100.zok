@@ -1,0 +1,121 @@
+import "hashes/pedersen/512bit.zok" as pedersenhash
+import "utils/pack/unpack128.zok" as unpack128
+import "utils/pack/pack128.zok" as pack128
+def main(field[100][256] layer7) -> (field[2]):
+	field[50][256] layer6 = [
+		pedersenhash([...layer7[0], ...layer7[1]]),
+		pedersenhash([...layer7[2], ...layer7[3]]),
+		pedersenhash([...layer7[4], ...layer7[5]]),
+		pedersenhash([...layer7[6], ...layer7[7]]),
+		pedersenhash([...layer7[8], ...layer7[9]]),
+		pedersenhash([...layer7[10], ...layer7[11]]),
+		pedersenhash([...layer7[12], ...layer7[13]]),
+		pedersenhash([...layer7[14], ...layer7[15]]),
+		pedersenhash([...layer7[16], ...layer7[17]]),
+		pedersenhash([...layer7[18], ...layer7[19]]),
+		pedersenhash([...layer7[20], ...layer7[21]]),
+		pedersenhash([...layer7[22], ...layer7[23]]),
+		pedersenhash([...layer7[24], ...layer7[25]]),
+		pedersenhash([...layer7[26], ...layer7[27]]),
+		pedersenhash([...layer7[28], ...layer7[29]]),
+		pedersenhash([...layer7[30], ...layer7[31]]),
+		pedersenhash([...layer7[32], ...layer7[33]]),
+		pedersenhash([...layer7[34], ...layer7[35]]),
+		pedersenhash([...layer7[36], ...layer7[37]]),
+		pedersenhash([...layer7[38], ...layer7[39]]),
+		pedersenhash([...layer7[40], ...layer7[41]]),
+		pedersenhash([...layer7[42], ...layer7[43]]),
+		pedersenhash([...layer7[44], ...layer7[45]]),
+		pedersenhash([...layer7[46], ...layer7[47]]),
+		pedersenhash([...layer7[48], ...layer7[49]]),
+		pedersenhash([...layer7[50], ...layer7[51]]),
+		pedersenhash([...layer7[52], ...layer7[53]]),
+		pedersenhash([...layer7[54], ...layer7[55]]),
+		pedersenhash([...layer7[56], ...layer7[57]]),
+		pedersenhash([...layer7[58], ...layer7[59]]),
+		pedersenhash([...layer7[60], ...layer7[61]]),
+		pedersenhash([...layer7[62], ...layer7[63]]),
+		pedersenhash([...layer7[64], ...layer7[65]]),
+		pedersenhash([...layer7[66], ...layer7[67]]),
+		pedersenhash([...layer7[68], ...layer7[69]]),
+		pedersenhash([...layer7[70], ...layer7[71]]),
+		pedersenhash([...layer7[72], ...layer7[73]]),
+		pedersenhash([...layer7[74], ...layer7[75]]),
+		pedersenhash([...layer7[76], ...layer7[77]]),
+		pedersenhash([...layer7[78], ...layer7[79]]),
+		pedersenhash([...layer7[80], ...layer7[81]]),
+		pedersenhash([...layer7[82], ...layer7[83]]),
+		pedersenhash([...layer7[84], ...layer7[85]]),
+		pedersenhash([...layer7[86], ...layer7[87]]),
+		pedersenhash([...layer7[88], ...layer7[89]]),
+		pedersenhash([...layer7[90], ...layer7[91]]),
+		pedersenhash([...layer7[92], ...layer7[93]]),
+		pedersenhash([...layer7[94], ...layer7[95]]),
+		pedersenhash([...layer7[96], ...layer7[97]]),
+		pedersenhash([...layer7[98], ...layer7[99]])
+	]
+	field[25][256] layer5 = [
+		pedersenhash([...layer6[0], ...layer6[1]]),
+		pedersenhash([...layer6[2], ...layer6[3]]),
+		pedersenhash([...layer6[4], ...layer6[5]]),
+		pedersenhash([...layer6[6], ...layer6[7]]),
+		pedersenhash([...layer6[8], ...layer6[9]]),
+		pedersenhash([...layer6[10], ...layer6[11]]),
+		pedersenhash([...layer6[12], ...layer6[13]]),
+		pedersenhash([...layer6[14], ...layer6[15]]),
+		pedersenhash([...layer6[16], ...layer6[17]]),
+		pedersenhash([...layer6[18], ...layer6[19]]),
+		pedersenhash([...layer6[20], ...layer6[21]]),
+		pedersenhash([...layer6[22], ...layer6[23]]),
+		pedersenhash([...layer6[24], ...layer6[25]]),
+		pedersenhash([...layer6[26], ...layer6[27]]),
+		pedersenhash([...layer6[28], ...layer6[29]]),
+		pedersenhash([...layer6[30], ...layer6[31]]),
+		pedersenhash([...layer6[32], ...layer6[33]]),
+		pedersenhash([...layer6[34], ...layer6[35]]),
+		pedersenhash([...layer6[36], ...layer6[37]]),
+		pedersenhash([...layer6[38], ...layer6[39]]),
+		pedersenhash([...layer6[40], ...layer6[41]]),
+		pedersenhash([...layer6[42], ...layer6[43]]),
+		pedersenhash([...layer6[44], ...layer6[45]]),
+		pedersenhash([...layer6[46], ...layer6[47]]),
+		pedersenhash([...layer6[48], ...layer6[49]])
+	]
+	field[13][256] layer4 = [
+		pedersenhash([...layer5[0], ...layer5[1]]),
+		pedersenhash([...layer5[2], ...layer5[3]]),
+		pedersenhash([...layer5[4], ...layer5[5]]),
+		pedersenhash([...layer5[6], ...layer5[7]]),
+		pedersenhash([...layer5[8], ...layer5[9]]),
+		pedersenhash([...layer5[10], ...layer5[11]]),
+		pedersenhash([...layer5[12], ...layer5[13]]),
+		pedersenhash([...layer5[14], ...layer5[15]]),
+		pedersenhash([...layer5[16], ...layer5[17]]),
+		pedersenhash([...layer5[18], ...layer5[19]]),
+		pedersenhash([...layer5[20], ...layer5[21]]),
+		pedersenhash([...layer5[22], ...layer5[23]]),
+		pedersenhash([...layer5[24], ...layer5[24]])
+	]
+	field[7][256] layer3 = [
+		pedersenhash([...layer4[0], ...layer4[1]]),
+		pedersenhash([...layer4[2], ...layer4[3]]),
+		pedersenhash([...layer4[4], ...layer4[5]]),
+		pedersenhash([...layer4[6], ...layer4[7]]),
+		pedersenhash([...layer4[8], ...layer4[9]]),
+		pedersenhash([...layer4[10], ...layer4[11]]),
+		pedersenhash([...layer4[12], ...layer4[12]])
+	]
+	field[4][256] layer2 = [
+		pedersenhash([...layer3[0], ...layer3[1]]),
+		pedersenhash([...layer3[2], ...layer3[3]]),
+		pedersenhash([...layer3[4], ...layer3[5]]),
+		pedersenhash([...layer3[6], ...layer3[6]])
+	]
+	field[2][256] layer1 = [
+		pedersenhash([...layer2[0], ...layer2[1]]),
+		pedersenhash([...layer2[2], ...layer2[3]])
+	]
+	field[256] layer0 = 		pedersenhash([...layer1[0], ...layer1[1]])
+	field res0 = pack128(layer0[0..128])
+	field res1 = pack128(layer0[128..256])
+	return [res0, res1]
