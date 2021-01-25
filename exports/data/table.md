@@ -1,3 +1,3 @@
-| file            |  compile_opt_μs |  memusg_compile |  setup_opt_μs |  memusg_setup |  witness_opt_μs |  memusg_witness |  proof_opt_μs |  memusg_proof |  constr_opt |  compile_unopt_μs |  memusg_compile |  setup_unopt_μs |  memusg_setup |  witness_unopt_μs |  memusg_witness |  proof_unopt_μs |  memusg_proof |  constr_unopt |
-| --------------- | --------------- | --------------- | ------------- | ------------- | --------------- | --------------- | ------------- | ------------- | ----------- | ----------------- | --------------- | --------------- | ------------- | ----------------- | --------------- | --------------- | ------------- | ------------- |
-| 512bit_pedersen |  2887069        |  34464          |  2921968      |  9952         |  968037         |  3948           |  1829507      |  15096        |  3666       |  2722348          |  46088          |  11790578       |  36096        |  1130532          |  10012          |  5912706        |  51388        |  19180        |
+| file              |  compile_opt_microsec |  memusg_compile_KiB |  constraints |
+| ----------------- | --------------------- | ------------------- | ------------ |
+| 256Paddedx6_nativ |  260797860            |  6838356            |  188591      |
