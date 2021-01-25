@@ -1,4 +1,2 @@
-Compiling files/256Paddedx6_nativ.zok
+Compiling files/512bitx20_native.zok
 
-Compiled code written to 'out'
-Number of constraints: 188591

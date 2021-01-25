@@ -1,9 +1,9 @@
 import "hashes/sha256/embed/512bit" as sha256
 
-def main(u32[8] a) -> (u32[8]):
-	u32[8] digest = sha256(a, a)
+def main(bool[256] a) -> (bool[256]):
+	bool[256] digest = sha256(a, a)
 	for field i in 0..5 do
-		u32[8] temp = sha256(digest, digest)
+		bool[256] = sha256(digest, digest)
 		digest = temp
 	endfor
 	return digest
