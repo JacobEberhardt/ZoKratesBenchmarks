@@ -1,2 +1,2 @@
-Compiling files/512bitx20_native.zok
+Compiling files/512bitx10.zok
 

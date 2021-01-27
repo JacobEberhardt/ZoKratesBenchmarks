@@ -7,7 +7,6 @@ import "utils/pack/u32/unpack128.zok" as unpack_field_to_4_u32
 import "hashes/sha256/1024bit.zok" as sha256for1024
 import "hashes/sha256/256bitPadded.zok" as sha256only
 import "./getHexLength.zok" as getHexLength
-import "./compute_merkle_root.zok" as compute_merkle_root
 
 def toBigEndian(bool[32] value) -> (bool[32]):
     return [
@@ -153,10 +152,11 @@ def main(field epoch_head, u32[8] prev_block_hash, private u32[2][20] intermedia
       blocks[i] = block_hash
     endfor
 
-        block_hash = validate_block_header(final_block[18], block_hash, final_block)
-        blocks[2] = block_hash
-        bool targetValid, field target = validate_target(epoch_head, intermediate_blocks[0][17], final_block[18])
-        // u32[8] merkle_root = compute_merkle_root(blocks)
+	block_hash = validate_block_header(final_block[18], block_hash, final_block)
+	blocks[2] = block_hash
+	bool targetValid, field target = validate_target(epoch_head, intermediate_blocks[0][17], final_block[18])
 
-        return targetValid, target, blocks[2]
-    
+	return targetValid, target, blocks[2]
+
+
+	// validate_block_header is run 3x: 1024bit -> 4 rounds, 256bit 2 rounds => 18 rounds total

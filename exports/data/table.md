@@ -1,3 +1,2 @@
-| file              |  compile_opt_microsec |  memusg_compile_KiB |  constraints |
-| ----------------- | --------------------- | ------------------- | ------------ |
-| 256Paddedx6_nativ |  260797860            |  6838356            |  188591      |
+| file |  compile_opt_microsec |  memusg_compile_KiB |  constraints |
+| ---- | --------------------- | ------------------- | ------------ |
