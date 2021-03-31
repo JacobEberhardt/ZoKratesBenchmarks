@@ -1,4 +1,4 @@
-Compiling files/ft-batch-transfer.zok
+Compiling files/1_4.zok
 
 Compiled code written to 'out'
-Number of constraints: 2611408
+Number of constraints: 5281

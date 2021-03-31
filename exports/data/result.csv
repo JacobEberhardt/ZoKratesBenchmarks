@@ -1,1 +1,1 @@
-file, compile_opt_μs, memusg_compile, setup_opt_μs, memusg_setup, witness_opt_μs, memusg_witness, proof_opt_μs, memusg_proof, constr_opt, compile_unopt_μs, memusg_compile, setup_unopt_μs, memusg_setup, witness_unopt_μs, memusg_witness, proof_unopt_μs, memusg_proof, constr_unopt
+file, compile_opt_sec, memusg_compile_KiB, setup_opt_sec, memusg_setup_KiB, witness_opt_sec, memusg_witness_KiB, proof_opt_sec, memusg_proof_KiB, constr_opt
