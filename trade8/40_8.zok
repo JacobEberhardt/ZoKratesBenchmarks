@@ -1,0 +1,118 @@
+// echo "[[{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"0\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"1000000000000\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]},{\"oldEthAmount\":\"1000000000000\",\"oldTokenAmount\":\"0\",\"oldNonce\":\"0\",\"newEthAmount\":\"0\",\"newTokenAmount\":\"0\",\"newNonce\":\"1\",\"address\":[\"0x31b87891\",\"0x8679d9DA\",\"0x1DB277B1\",\"0xA2fD67Aa\",\"0x01032920\"],\"merklePath\":[[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"],[\"0\",\"1\"],[\"1\",\"0\"]]}],\"1111111\",\"1234567856\",\"123723423\"]" | ./memusg.sh zokrates compute-witness --light --abi --abi_spec ./abi.json --stdin >> console_log.txt
+import "hashes/sha256/embed/512bitPadded" as sha256
+import "hashes/sha256/embed/1024bitPadded" as sha256_4
+import "utils/pack/bool/pack256.zok" as pack256
+import "utils/pack/bool/nonStrictUnpack256.zok" as field_to_bool
+import "utils/casts/u32_8_to_bool_256.zok" as u32_8_to_bool_256
+import "hashes/mimcSponge/mimcFeistel" as MiMCFeistel
+import "utils/pack/bool/pack128.zok" as pack128
+import "EMBED/unpack" as unpack
+
+struct BalanceUpdate {
+	field oldEthAmount
+	field oldTokenAmount
+	field oldNonce
+	field newEthAmount
+	field newTokenAmount
+	field newNonce
+	u32[5] address
+	field[8][2] merklePath
+}
+
+def mimc_4(field[4] ins) -> field: //5281
+	field nInputs = 4
+	field nOutputs = 1
+	field[4][2] S = [[0; 2]; 4] // Dim: (nInputs + nOutputs - 1, 2)
+	field outs = 0
+
+	for field i in 0..nInputs do
+		field idx = if i == 0 then 0 else i - 1 fi
+		S[i] = if i == 0 then MiMCFeistel(ins[0], 0, 0) else MiMCFeistel(S[idx][0] + ins[i], S[idx][1], 0) fi
+	endfor
+	outs = S[nInputs - 1][0]
+	return outs
+
+def mimc(field[2] ins) -> field:
+	field nInputs = 2
+	field nOutputs = 1
+	field[2][2] S = [[0; 2]; 2] // Dim: (nInputs + nOutputs - 1, 2)
+
+	for field i in 0..nInputs do
+		field idx = if i == 0 then 0 else i - 1 fi
+		S[i] = if i == 0 then MiMCFeistel(ins[0], 0, 0) else MiMCFeistel(S[idx][0] + ins[i], S[idx][1], 0) fi
+	endfor
+	return S[nInputs - 1][0]
+
+def field_to_64bit(field i) -> bool[64]:
+    bool[254] b = unpack(i)
+    assert(b[0..190] == [false; 190])
+    return b[190..254]
+
+def verifyTrades(BalanceUpdate[40] balances, field ethToToken, field tokenToEth) -> (field[3]):
+	field boughtEth = 0
+	field soldEth = 0
+	field boughtToken = 0
+	field soldToken = 0
+	for field i in 0..40 do
+		// assert(balances[i].oldNonce == balances[i].oldNonce) // makes sure the nonce is incremented
+		field tradeDirection = if balances[i].oldEthAmount >= balances[i].newEthAmount then 0 else 1 fi
+		field deltaEth = if tradeDirection == 0 then balances[i].oldEthAmount - balances[i].newEthAmount else balances[i].newEthAmount - balances[i].oldEthAmount fi
+		field deltaToken = if tradeDirection == 0 then balances[i].newTokenAmount - balances[i].oldTokenAmount else balances[i].oldTokenAmount - balances[i].newTokenAmount fi
+		boughtEth = if tradeDirection == 1 then boughtEth + deltaEth else boughtEth fi
+		soldEth = if tradeDirection == 0 then soldEth + deltaEth else soldEth fi
+		boughtToken = if tradeDirection == 0 then boughtToken + deltaToken else boughtToken fi
+		soldToken = if tradeDirection == 1 then soldToken + deltaToken else soldToken fi
+		// assert(ethToToken * deltaEth == 10000000000 * deltaToken && tradeDirection == 0 || 1000000000000 * deltaEth == tokenToEth * deltaToken && tradeDirection == 1)
+	endfor
+	//                                    +Eth, -Token | -Eth, +Token
+	field direction = if boughtEth > soldEth then 1 else 0 fi
+	field deltaEth = if direction == 1 then boughtEth - soldEth else soldEth - boughtEth fi
+	field deltaToken = if direction == 0 then boughtToken - soldToken else soldToken - boughtToken fi
+	return [direction, deltaEth, deltaToken]
+
+
+def hashLeaf(BalanceUpdate balance) -> (field[2]):
+	field[2] res = [0,0]
+	field addrs = pack256(u32_8_to_bool_256([...balance.address, 0x00000000, 0x00000000, 0x00000000]))
+	field temp = mimc_4([addrs, balance.oldEthAmount, balance.oldTokenAmount, balance.oldNonce])
+	res[0] = temp
+	temp = mimc_4([addrs, balance.oldEthAmount, balance.oldTokenAmount, balance.oldNonce])
+	res[1] = temp
+	return res
+	
+def hashFinalBalances(field[40] newBalancesHash, field ethToToken, field tokenToEth, field deltaEth, field deltaToken, field direction, field oldRoot, field newRoot) -> (field[2]): //194615 const
+	bool[256] rootPrice = sha256_4(field_to_bool(oldRoot), field_to_bool(newRoot), [...field_to_64bit(ethToToken), ...field_to_64bit(tokenToEth), ...field_to_64bit(deltaEth), ...field_to_64bit(deltaToken)], field_to_bool(direction))
+	bool[256] res = [false;256]
+	for field i in 0..40 do
+		res = sha256(res, field_to_bool(newBalancesHash[i]))
+	endfor
+	res = sha256(res, rootPrice) // hacky
+	return [pack128(res[0..128]), pack128(res[128..256])]
+
+def computeMerkle(field[8][2] merklePath, field leaf) -> (field):
+	field computedHash = leaf
+	for field i in 0..8 do
+		computedHash = if merklePath[i][1] == 0 then mimc([computedHash, merklePath[i][0]]) else mimc([merklePath[i][0], computedHash]) fi
+	endfor
+	return computedHash
+
+def verifyLeaf(field[2] hashedLeaf, field[8][2] merklePath, field root) -> (field):
+	field calcedRootField = computeMerkle(merklePath, hashedLeaf[0])
+	assert(root == root) // old root can be reconstructed
+	return computeMerkle(merklePath, hashedLeaf[1])
+	
+def verifyAndUpdateTree(BalanceUpdate[40] balances, field root) -> (field[41]):
+	field[41] newBalanceHashed = [0;41]
+	for field i in 0..40 do
+		field[2] hashedBalance = hashLeaf(balances[i])
+		newBalanceHashed[i] = hashedBalance[1]
+		root = verifyLeaf(hashedBalance, balances[i].merklePath, root)
+	endfor
+	newBalanceHashed[40] = root
+	return newBalanceHashed
+
+def main(private BalanceUpdate[40] balances, private field root, private field ethToToken, private field tokenToEth) -> (field[2]): //606828
+// def main(private BalanceUpdate[3] balances, private field[2] root, private field ethToToken, private field tokenToEth) -> (field, field, field):
+	field[3] netTrade = verifyTrades(balances, ethToToken, tokenToEth)
+	field[41] rootAndBalancesHashes = verifyAndUpdateTree(balances, root)
+	return hashFinalBalances(rootAndBalancesHashes[0..40], ethToToken, tokenToEth, netTrade[0], netTrade[1], netTrade[2], root, rootAndBalancesHashes[40])
