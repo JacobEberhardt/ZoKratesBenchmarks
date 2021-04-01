@@ -1,0 +1,2 @@
+main(field a, frield b) -> (field):
+	return a * a

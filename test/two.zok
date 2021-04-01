@@ -1,0 +1,2 @@
+def main(field a) -> (field)
+	return a * a * a * a * a
