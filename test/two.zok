@@ -1,3 +1,0 @@
-// memusg.sh zokrates compute-witness -a 1 --light >> console_log.txt
-def main(field a) -> (field)
-	return a * a * a * a * a

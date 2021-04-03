@@ -1,4 +1,4 @@
-Compiling files/1_4.zok
+Compiling files/3_8_sha.zok
 
 Compiled code written to 'out'
-Number of constraints: 5281
+Number of constraints: 14803141
