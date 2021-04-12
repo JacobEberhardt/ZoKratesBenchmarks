@@ -71,11 +71,15 @@ def verifyDepWith(BalanceMovementObject[15] balances) -> (bool):
     
 def hashFinalBalances(BalanceMovementObject[15] balances, field oldRoot, field newRoot) -> (field[2]):
     bool[256] res = sha256(field_to_bool(oldRoot), field_to_bool(newRoot))
+    bool[256] depHash = [false; 256]
     for field i in 0..15 do
+        bool[256] val = if balances[i].deltaEth > 0 then [...u32_4_to_bool_128(balances[i].address[0..4]), ...u32_to_bits(balances[i].address[4]), ...field_to_64bit(balances[i].deltaEth), ...[true;32]] else [...u32_4_to_bool_128(balances[i].address[0..4]), ...u32_to_bits(balances[i].address[4]), ...field_to_64bit(balances[i].deltaToken), ...[false;32]] fi
+        depHash = if balances[i].movementType == 0 then sha256(depHash, val) else depHash fi
         bool[256] addrs = u32_8_to_bool_256([...balances[i].address, 0x00000000, 0x00000000, 0x00000000])
 	    bool[256] amounts = [...field_to_64bit(balances[i].newEthAmount), ...field_to_64bit(balances[i].newTokenAmount), ...field_to_64bit(balances[i].newNonce), ...field_to_64bit(0)]
         res = sha256(res, sha256(addrs, amounts))
     endfor
+	res = sha256(res, depHash)
     return [pack128(res[0..128]), pack128(res[128..256])]
 
 def computeMerkle(field[16][2] merklePath, field leaf) -> (field):
